@@ -1,3 +1,103 @@
 html {
-  
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  height: 31rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3rem;
+}
+
+.header {
+  background-color: cadetblue;
+  position: relative;
+  top: 1rem;
+  color: white;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo-img img {
+  height: 1.5rem;
+}
+
+.logo .logo-img {
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+
+nav span {
+  padding-right: 2rem;
+}
+
+.statement {
+  background-color: white;
+  font-size: 2rem;
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+}
+
+.offerings .flex-container {
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.offer {
+  height: 8rem;
+}
+
+.offer-img.size3_5 {
+  width: 3.5rem;
+}
+
+.size5 {
+  width: 5rem;
+}
+
+.information .flex-container {
+  justify-content: center;
+  margin-bottom: 5rem;
+  align-items: flex-start;
+}
+
+.info {
+  width: 35%;
+  line-height: 1.4;
+  padding: 0 2.5%;
+}
+
+.info h4 {
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: azure;
+}
+
+.copyright {
+  padding: 4rem;
 }
